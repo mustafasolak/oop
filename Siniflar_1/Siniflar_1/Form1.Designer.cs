@@ -29,8 +29,18 @@ namespace Siniflar_1
         /// </summary>
         private void InitializeComponent()
         {
+            this.btnSonradanEklenenDugme = new System.Windows.Forms.Button();
             this.btnDikdortgenAlanHesapla = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // btnSonradanEklenenDugme
+            // 
+            this.btnSonradanEklenenDugme.Location = new System.Drawing.Point(239, 29);
+            this.btnSonradanEklenenDugme.Name = "btnSonradanEklenenDugme";
+            this.btnSonradanEklenenDugme.Size = new System.Drawing.Size(136, 88);
+            this.btnSonradanEklenenDugme.TabIndex = 1;
+            this.btnSonradanEklenenDugme.Text = "Sonradan Eklendi";
+            this.btnSonradanEklenenDugme.UseVisualStyleBackColor = true;
             // 
             // btnDikdortgenAlanHesapla
             // 
@@ -48,6 +58,7 @@ namespace Siniflar_1
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(477, 309);
+            this.Controls.Add(this.btnSonradanEklenenDugme);
             this.Controls.Add(this.btnDikdortgenAlanHesapla);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
@@ -58,7 +69,7 @@ namespace Siniflar_1
         }
 
         #endregion
-
+        private System.Windows.Forms.Button btnSonradanEklenenDugme;
         private System.Windows.Forms.Button btnDikdortgenAlanHesapla;
     }
 }

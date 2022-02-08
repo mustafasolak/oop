@@ -20,11 +20,15 @@ namespace Siniflar_1
         private void btnDikdortgenAlanHesapla_Click(object sender, EventArgs e)
         {
             // Sınıftan nesne üretme
+
+
             // new anahtar kelimesi kullanılır
             // sinifAdi nesneadi = new sinifadi;
             Dikdortgen dikdortgen1 = new Dikdortgen(4,6);
             int alanimiz = dikdortgen1.alanHesapla();
             MessageBox.Show("Alan :" + alanimiz.ToString());
+
+            // Örnek sonradan eklenen metin
 
         }
     }
