@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kalitim__2_Zincirleme", "Kalitim__2_Zincirleme\Kalitim__2_Zincirleme.csproj", "{477317FC-E95B-4703-AD05-0232CF5846B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{477317FC-E95B-4703-AD05-0232CF5846B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{477317FC-E95B-4703-AD05-0232CF5846B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{477317FC-E95B-4703-AD05-0232CF5846B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{477317FC-E95B-4703-AD05-0232CF5846B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3722DCF2-B1ED-401D-86C2-644C8253173F}
+	EndGlobalSection
+EndGlobal
