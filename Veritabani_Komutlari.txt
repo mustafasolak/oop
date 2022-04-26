@@ -1,0 +1,51 @@
+veritabanlarını listelemek için
+show databases;
+
+veritabanı oluşturmak için
+create database db_adi;
+create database ogrenci_bilgi;
+
+veritabanını seçip üzerinde işlem yapmak için
+use db_adi;
+use ogrenci_bilgi;
+
+
+tablo oluşturmak için;
+create table tablo_adi(
+   sutun_adi1 turu diger_parametreler,
+   sutun_adi2 turu diger_parametreler,
+   sutun_adi3 turu diger_parametreler,
+   ...
+);
+
+create table isimler(
+  id int primary key not null,
+  adi text not null,
+  soyadi text not null,
+  sinifi text not null
+);
+
+
+tabloya veri ekleme
+insert into tablo_adi(sutun1, sutun2, sutun3, ...) values     (deger1, deger2, deger3);
+
+
+insert into isimler(adi, soyadi, sinifi) values ("Ali","SOLAK","9/a");
+
+tablodan tüm kayıtları çekmek için
+select * from tablo_adi;
+select * from isimler;
+
+tablonun istenen sutunlarını çekmek için
+select sutun_adi1, sutun_adi2, ... from tablo_adi;
+
+tablodan belirli şartlara uygun kayıtları çekmek için
+select * from tablo_adi where sutun_adi = deger;
+select * from tablo_adi where sutun_adi1 = deger1 and sutun_adi2 = deger2;
+select * from tablo_adi where sutun_adi1 = deger1 and sutun_adi2 = deger2 and ...;
+
+select * from tablo_adi where (sutun_adi1 = deger1 or sutun_adi2 = deger2) and ...;
+
+
+
+
