@@ -1,0 +1,5 @@
+tabloda güncelleme yapmak için
+update tablo_adi set alan1=deger1, alan2=deger2, ...;
+
+tablodan kayıt silmek için
+delete  from tablo_adi where sart1=deger1;
