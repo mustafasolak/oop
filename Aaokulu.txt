@@ -1,0 +1,24 @@
+create database anaokulu;
+use anaokulu;
+create table ogretmenler(
+  ogretmen_id int primary key not null auto_increment,
+  adi text not null,
+  soyadi text not null,
+  telefon text not null
+);
+
+create table ogrenciler(
+  ogrenci_id int primary key not null auto_increment,
+  adi text not null,
+  soyadi text not null,
+  sinifi text not null,
+  numarasi text not null,
+  veli_adi  text not null,
+  veli_telefon text not null, 
+  adres text not null
+);
+
+create table siniflar(
+  sinif_id int primary key not null auto_increment,
+  adi text not null
+);
